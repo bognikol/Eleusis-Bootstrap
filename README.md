@@ -6,7 +6,7 @@ This is bare minimum Visual Studio project for creating Eleusis GUI apps.
 Download sample app [here](https://github.com/bognikol/Eleusis-Sample-App-Binaries).
 
 ## Requirements
-Microsoft Visual C++ Redistributable 2015 | [x86](https://www.microsoft.com/en-us/download/details.aspx?id=48145) | [x64](https://www.microsoft.com/en-us/download/details.aspx?id=48145)  |
+* Microsoft Visual Studio 2015
 
 ## Current Major Limitations
 * Eleusis may not work as expected when window size exceeds 1920 x 1200 effective pixels.
