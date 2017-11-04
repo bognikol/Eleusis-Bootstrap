@@ -1,2 +1,13 @@
-# Eleusis-Bootstrap
-Bootstrap Visual Studio project for creating Eleusis GUI apps
+# Eleusis Bootstrap
+This is bare minimum Visual Studio project for creating Eleusis GUI apps.
+
+[Eleusis](https://github.com/bognikol/Eleusis) is work in progress; you are welcomed to contribute.
+
+Download sample app [here](https://github.com/bognikol/Eleusis-Sample-App-Binaries).
+
+## Requirements
+Microsoft Visual C++ Redistributable 2015 | [x86](https://www.microsoft.com/en-us/download/details.aspx?id=48145) | [x64](https://www.microsoft.com/en-us/download/details.aspx?id=48145)  |
+
+## Current Major Limitations
+* Eleusis may not work as expected when window size exceeds 1920 x 1200 effective pixels.
+* Unfortunately, currently Eleusis passes STL objects through library boundary. It means that exact platform-configuration match of Eleusis dll needs to be used.
